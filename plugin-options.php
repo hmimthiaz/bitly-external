@@ -18,6 +18,13 @@
 		<th scope="row"><label for="bitly_external_plugin_api_key"><?php _e('API Key') ?></label></th>
 		<td><input name="bitly_external_plugin_api_key" type="text" id="bitly_external_plugin_api_key" value="<?php form_option('bitly_external_plugin_api_key'); ?>" class="regular-text" /></td>
 	    </tr>
+	    <tr valign="top">
+		<th scope="row"><label for="bitly_external_plugin_blocked_domains"><?php _e('Blocked Domains') ?></label></th>
+		<td>
+		    <textarea name="bitly_external_plugin_blocked_domains" rows="4" cols="30" id="bitly_external_plugin_blocked_domains" class="large-text code"><?php form_option('bitly_external_plugin_blocked_domains'); ?></textarea>
+		    <p>You can have multiple domain separated by semicolon</p>
+		</td>
+	    </tr>
 	</table>
 	<p class="submit">
 	    <input type="submit" name="Submit" class="button-primary" value="<?php esc_attr_e('Save Changes') ?>" />
