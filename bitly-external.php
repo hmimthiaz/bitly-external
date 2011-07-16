@@ -2,10 +2,10 @@
 
 /*
   Plugin Name: Wordpress Bit.ly External URLS
-  Plugin URI: http://imthi.com/wp-s3/
-  Description: This plugin helps all the external URLS to bit.ly links
+  Plugin URI: https://github.com/hmimthiaz/bitly-external
+  Description: This plugin helps to replace all the external URL to bit.ly link URL
   Author: Imthiaz Rafiq
-  Version: 1.1 Alpha
+  Version: 1.0 Alpha
   Author URI: http://imthi.com/
  */
 
